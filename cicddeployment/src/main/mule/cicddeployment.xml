@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="cicddeploymentFlow" doc:id="59317ae6-47da-4286-bc33-9f764c9e7859" >
 		<http:listener doc:name="Listener" doc:id="b27be31e-2973-4d7b-acaf-914cac326826" config-ref="HTTP_Listener_config" path="/jenkins" allowedMethods="GET"/>
-		<set-payload value="The first try in jenkins" doc:name="Set Payload" doc:id="eaa77d70-3874-44ff-b81d-21dc7dd53342" />
+		<set-payload value="The first try in jenkins autodeployment" doc:name="Set Payload" doc:id="eaa77d70-3874-44ff-b81d-21dc7dd53342" />
 	</flow>
 </mule>
